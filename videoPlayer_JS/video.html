@@ -1,0 +1,102 @@
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="logo.png" />
+
+  <!-- CSS IMPORT -->
+  <link href="layout.css" rel="stylesheet" />
+
+  <title>Workana - Video</title>
+</head>
+
+<body>
+  <div class="main-div" id="main-div">
+    <video id="video-player" class="video-player" width="640" height="400">
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+
+    <button
+      id="autoplay-button"
+      onclick="handleAutoPlayClick()"
+      class="autoplay-button"
+    >
+      <b class="autoplay-button-text">Seu vídeo já começou</b>
+      <br />
+      <img src="no-sound-white-animate.gif" width="100" height="100" />
+      <br />
+      <b class="autoplay-button-text">Clique para ouvir</b>
+    </button>
+
+    <button onclick="playPause()" id="circle-button" class="circle-button">
+      <div class="arrow-right"></div>
+    </button>
+
+    <div id="continue-session" class="continue-session">
+      <b class="resume-autoplay-header"
+        >Você já começou a assistir esse vídeo</b
+      >
+
+      <button
+        id="continue-session-button"
+        class="continue-session-button"
+        onclick="continueSession()"
+      >
+        <b class="continue-session-text">Continuar assistindo</b>
+      </button>
+
+      <button
+        id="restart-session-button"
+        class="restart-session-button"
+        onclick="restartSession()"
+      >
+        <b class="restart-session-text">Voltar ao início</b>
+      </button>
+    </div>
+
+    <div id="progress-bar-div" class="center">
+      <progress
+        id="progress"
+        class="progress-bar"
+        max="1000"
+        value="0"
+      ></progress>
+    </div>
+
+    <!-- <div id="play-pause-button-div">
+      <button
+        id="play-pause-button"
+        class="play-pause-button"
+        onclick="playPause()"
+      ></button>
+    </div> -->
+
+    <!-- <div id="pause-button-div">
+      <button
+        id="pause-button"
+        class="pause-button"
+        onclick="playPause()"
+      ></button>
+    </div> -->
+
+    <div id="call-to-action-button-div">
+      <button class="call-to-action-button">
+        <span class="call-to-action-text-header">COMPRAR AGORA</span>
+        <br />
+        <span class="call-to-action-text-subtitle">(Somente até às 23h59)</span>
+      </button>
+    </div>
+
+    <div id="end-session" class="end-session">
+      <b class="end-session-header">Seu vídeo terminou</b>
+
+      <button
+        id="end-session-button"
+        class="end-session-button"
+        onclick="restartSession()"
+      >
+        <b class="end-session-text">Assistir novamente</b>
+      </button>
+    </div>
+  </div>
+
+  <script src="video.js"></script>
+</body>
