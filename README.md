@@ -14,7 +14,7 @@
 
 ### Back-end
 
-[![My Skills](https://skillicons.dev/icons?i=py,nodejs,postgres)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,nodejs,postgres,express)](https://skillicons.dev)
 
 ### DevOps
 
