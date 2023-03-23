@@ -7,6 +7,10 @@
   <li>📫 You can reach me at https://www.linkedin.com/in/pepaulo8/</li>
 </ul>
 
+### My skills
+
+[![My Skills](https://skillicons.dev/icons?i=react,js,html,css,ts)](https://skillicons.dev)
+
 
   
   
