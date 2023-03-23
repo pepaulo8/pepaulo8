@@ -1,4 +1,6 @@
- # <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> <h1>Hi, I’m @pepaulo8</h1>
+ <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador">
+
+# <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> Hi, I’m @pepaulo8
 
 <ul>
   <li>🌱 I have extensive experience in front-end development using Typescript, React, HTML, and JavaScript, with a strong focus on creating responsive, user-friendly interfaces.</li>
