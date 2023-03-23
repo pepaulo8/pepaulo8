@@ -1,9 +1,9 @@
 <h1>👋 Hi, I’m @pepaulo8</h1>
 
 <ul>
-  <li>👀 I’m interested in how <strong>data</strong> can change people life</li>
-  <li>🌱 I’m a Civil Engineering who is learning about programming and Data Science</li>
-  <li>💞️ I love logic and the learning process</li>
+  <li>🌱 I have extensive experience in front-end development using Typescript, React, HTML, and JavaScript, with a strong focus on creating responsive, user-friendly interfaces.</li>
+  <li>👀 Constantly exploring new technologies and techniques, staying up-to-date with the latest trends in front-end development and pushing the boundaries of what is possible in this field.</li>
+  <li>💞️ I am naturally curious and have a passion for discovering insights hidden within data. I have an analytical approach to problem-solving and am skilled in identifying patterns, trends, and anomalies.</li>
   <li>📫 You can reach me at https://www.linkedin.com/in/pepaulo8/</li>
 </ul>
 
